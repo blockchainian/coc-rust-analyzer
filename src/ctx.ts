@@ -63,7 +63,7 @@ export class Ctx {
       if (status.health !== 'ok' && status.message?.length) {
         // https://github.com/fannheyward/coc-rust-analyzer/issues/763
         if (status.message.startsWith('cargo check failed')) return;
-        window.showWarningMessage(`rust-analyzer failed to start: ${status.message}`);
+        window.showWarningMessage(`rust-analyzer: ${status.message}`);
       }
     });
 
