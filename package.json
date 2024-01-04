@@ -1,5 +1,5 @@
 {
-  "name": "coc-rust-analyzer",
+  "name": "@blockchainian/coc-rust-analyzer",
   "version": "0.75.0",
   "description": "rust-analyzer for Vim/Neovim, works as an extension with coc.nvim",
   "author": "Heyward Fann <fannheyward@gmail.com>",
